@@ -15,7 +15,7 @@ footer: 看到这里,您可以离开
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: QQ
-    url: http://sighttp.qq.com/msgrd?v=3&uin=5414718%E5%8F%B7&site=&menu=yes
+    url: tencent://QQInterLive/?Cmd=2&Uin=5414718
   - title: 微信
     url:
   - title: github
