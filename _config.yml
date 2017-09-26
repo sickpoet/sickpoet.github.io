@@ -1,8 +1,8 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: 欢迎您的到来,我的客人
+email: qinchun1024@163.com
+url: https://sickpoet.github.io
+description: "你知道吗，从你进来的那一刻起，你的银行账户就已经被我盗取,请联系我!"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -10,20 +10,16 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Your Website
+footer: 看到这里,您可以离开
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: facebook
+  - title: QQ
+    url: http://sighttp.qq.com/msgrd?v=3&uin=5414718%E5%8F%B7&site=&menu=yes
+  - title: 微信
     url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://sickpoet.github.io
 
 # Build settings
 markdown: kramdown
