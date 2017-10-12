@@ -1,5 +1,5 @@
 # Site settings
-title: 欢迎您的到来,我的客人
+title: 欢迎您来访问 病态诗人 的主页
 email: qinchun1024@163.com
 url: https://sickpoet.github.io
 description: "你知道吗，从你进来的那一刻起，你的银行账户就已经被我盗取,请联系我!"
@@ -10,7 +10,7 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: 看到这里,您可以离开
+footer: 看到这里,您可以离开,或者您可以再看一次.
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
