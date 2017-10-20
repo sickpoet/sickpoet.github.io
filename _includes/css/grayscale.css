@@ -43,6 +43,9 @@ p {
         line-height: 1.6;
     }
 }
+hr{
+  margin:0px;
+}
 
 a {
     color: {{ site.color.links }};
@@ -249,12 +252,13 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+
 }
 
 .download-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 0px 0 ;
+    margin-bottom: 10px;
     color: #fff;
     background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
@@ -267,7 +271,6 @@ a:focus {
 #map {
     width: 100%;
     height: 200px;
-    margin-top: 100px;
 }
 
 @media(min-width:767px) {
@@ -361,12 +364,36 @@ img::selection {
 img::-moz-selection {
     background: 0 0;
 }
+#about a{
+
+}
 #about{
-  background: url(/img/) no-repeat center center scroll;
+  background: url(/img/motain.jpg) no-repeat center center scroll;
+  margin:0 auto;
+  display:table;
+  width: 100%;
+    background-color: {{ site.color.primary-dark }};
+    width: 100%;
+    color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
 }
 #contact{
-    background: url(/img/X.jpg) no-repeat center center scroll;
+    background: url(/img/back.jpg) no-repeat center center scroll;
+    display: table;
     width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
