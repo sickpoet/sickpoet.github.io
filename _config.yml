@@ -34,13 +34,13 @@ highlighter: rouge
   #pygments
 permalink: /:year/:month/:day/:title.html
 name: "us&#39;"
-# markdown: rdiscount
-# rdiscount:
-#     extensions:
-#       - generate_toc
-#       - footnotes
-#       - smart
-#     toc_token: "@TOC"
+markdown: kramdown
+kramdown:
+    extensions:
+      - generate_toc
+      - footnotes
+      - smart
+    toc_token: "@TOC"
 
 author: "sick&#39; poet"
 atom-baseurl: "http://sickpoet.github.io"
