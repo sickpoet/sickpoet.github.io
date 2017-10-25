@@ -28,7 +28,7 @@ permalink: pretty
 
 
 
-
+markdown: kramdown
 # markdown: rdiscount
 highlighter: rouge
   #pygments
