@@ -68,12 +68,12 @@ navigations:
     href: /article/atom.xml
 
 #social
-qq: "http://wpa.qq.com/msgrd?v=3&uin=5414718&site=qq&menu=yes"
+qq: "https://wpa.qq.com/msgrd?v=3&uin=5414718&site=qq&menu=yes"
 weibo: ""
 wechat: "微信号:elephant_crossing"
 linkedin: ""
 github: "https://github.com/SickPoet"
-siteurl: "http://sickpoet.github.io"
+siteurl: "https://sickpoet.github.io"
 
 # _plugins: [jekyll-gallery-generator]
  # This will require each of these gems automatically.
