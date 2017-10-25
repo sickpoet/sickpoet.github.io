@@ -1,8 +1,8 @@
 # Site settings
-title: 欢迎来访问倩女社区
+title: 倩女社区
 email: qinchun1024@163.com
 url: https://sickpoet.github.io
-description: "我是您最忠实的朋友诗人!你知道吗，从你进来的那一刻起，你的银行账户就已经被我盗取,请联系我!"
+description: "我是您最忠实的朋友Sick诗人!你知道吗，从你进来的那一刻起，你的银行账户就已经被我盗取,请联系我!"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -10,7 +10,7 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: 看到这里,您可以离开,或者您可以再看一次.
+footer: 最终解释权归诗人所有
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -21,6 +21,63 @@ social:
   - title: github
     url: https://sickpoet.github.io
 
+
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+
+
+
+markdown: rdiscount
+highlighter: pygments
+permalink: /:year/:month/:day/:title.html
+name: "us&#39;"
+markdown: rdiscount
+rdiscount:
+    extensions:
+      - generate_toc
+      - footnotes
+      - smart
+    toc_token: "@TOC"
+
+author: "sick&#39; poet"
+atom-baseurl: "http://sickpoet.github.io"
+disqus: "gopherwood"
+
+excerpt_separator: "<!--more-->"
+
+
+
+navigations:
+  - title: 主要内容
+    class: fa fa-list-ul
+    href: /article/index.html
+  - title: Pandect
+    class: fa fa-list-ul
+    href: /article/pandect.html
+  - title: Tags
+    class: fa fa-tags
+    href: /article/tags.html
+  - title: About
+    class: fa fa-user
+    href: /article/about.html
+  - title: Subscribe
+    class: fa fa-rss
+    href: /article/atom.xml
+
+#social
+qq: "http://wpa.qq.com/msgrd?v=3&uin=5414718&site=qq&menu=yes"
+weibo: ""
+wechat: "微信号:elephant_crossing"
+linkedin: ""
+github: "https://github.com/SickPoet"
+siteurl: "http://sickpoet.github.io"
+
+# _plugins: [jekyll-gallery-generator]
+ # This will require each of these gems automatically.
+
+
+
+# _plugins: [jekyll-gallery-generator]
+ # This will require each of these gems automatically.

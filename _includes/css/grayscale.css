@@ -275,11 +275,11 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 10px;
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 105px 0;
     }
 
     #map {
@@ -371,6 +371,7 @@ img::-moz-selection {
   background: url(/img/motain.jpg) no-repeat center center scroll;
   margin:0 auto;
   display:table;
+  padding-top: 88px;
   width: 100%;
     background-color: {{ site.color.primary-dark }};
     width: 100%;
@@ -381,12 +382,13 @@ img::-moz-selection {
     -o-background-size: cover;
 
 }
+
 #contact{
     background: url(/img/back.jpg) no-repeat center center scroll;
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 140px 0;
     text-align: center;
     color: #fff;
     background-color: {{ site.color.primary-dark }};
