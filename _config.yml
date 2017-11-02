@@ -1,5 +1,5 @@
 # Site settings
-title: 倩女社区
+title: 病态诗人
 email: qinchun1024@163.com
 url: https://sickpoet.github.io
 description: "我是您最忠实的朋友Sick诗人!你知道吗，从你进来的那一刻起，你的银行账户就已经被我盗取,请联系我!"
@@ -25,15 +25,13 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-
-
 markdown: kramdown
-# markdown: rdiscount
+# markdown: rdiscount not support
 highlighter: rouge
   #pygments
 permalink: /:year/:month/:day/:title.html
 name: "us&#39;"
+
 markdown: kramdown
 kramdown:
     extensions:
@@ -47,7 +45,6 @@ atom-baseurl: "http://sickpoet.github.io"
 disqus: "gopherwood"
 
 excerpt_separator: "<!--more-->"
-
 
 
 navigations:
