@@ -1,4 +1,4 @@
-
+<head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="{{ site.author }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -11,4 +11,10 @@
   {% else %}
   <title>{{ site.name }}</title>
   {% endif %}
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link href="/atom.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Average+Sans:400"/>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+
   <link rel="stylesheet" href="{{ "/artStyle.css" | prepend: site.baseurl }}">
+</head>
