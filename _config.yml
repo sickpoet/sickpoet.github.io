@@ -1,5 +1,5 @@
-# Site settings
-title: 病态诗人
+# HomePages
+title: 病态诗人的个人主页
 email: qinchun1024@163.com
 url: https://sickpoet.github.io
 description: "我是您最忠实的朋友Sick诗人!你知道吗，从你进来的那一刻起，你的银行账户就已经被我盗取,请联系我!"
@@ -21,16 +21,15 @@ social:
     url: https://sickpoet.github.io
 
 
-# Build settings
-markdown: kramdown
-permalink: pretty
-markdown: kramdown
-# markdown: rdiscount not support
-highlighter: rouge
-  #pygments
-permalink: /:year/:month/:day/:title.html
-name: "us&#39;"
+# BlogPages
 
+permalink: pretty
+
+highlighter: rouge
+#pygments
+permalink: /:year/:month/:day/:title.html
+name: "病态诗人的个人博客&#39;"
+# markdown: rdiscount not support
 markdown: kramdown
 kramdown:
     extensions:
@@ -66,7 +65,7 @@ navigations:
     class: fa fa-rss
     href: /article/atom.xml
 
-#social
+#Common
 qq: "https://wpa.qq.com/msgrd?v=3&uin=5414718&site=qq&menu=yes"
 weibo: ""
 wechat: "微信号:elephant_crossing"
@@ -76,8 +75,5 @@ siteurl: "https://sickpoet.github.io"
 
 # _plugins: [jekyll-gallery-generator]
  # This will require each of these gems automatically.
-
-
-
 # _plugins: [jekyll-gallery-generator]
  # This will require each of these gems automatically.

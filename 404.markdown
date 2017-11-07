@@ -3,6 +3,9 @@ title: 404
 layout: page
 ---
 
-Nothing found :(
+什么都没有找到 :(
 
-But you still can have a [look around](/index.html)
+但是你可以去主页试试 [look around](/artcle/index.html)
+
+或者联系我的
+<a href="mailto:qinchun1024@163.com">邮箱</a>
