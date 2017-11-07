@@ -51,6 +51,9 @@ navigations:
   - title: 主要内容
     class: fa fa-list-ul
     href: /article/index.html
+  - title: 个人简历
+    class: fa fa-list-ul
+    href: /article/resume.html
   - title: Pandect
     class: fa fa-list-ul
     href: /article/pandect.html

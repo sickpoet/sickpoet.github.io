@@ -1,0 +1,19 @@
+
+
+<head>
+  <link rel="stylesheet" href="../css/css/resume.css">
+  <link rel="stylesheet" href="../css/css/normalize.css">
+
+  <link rel="stylesheet" href="../css/fonts/font-awesome.css">
+
+</head>
+<body>
+  {% if page.title %}
+  <section class="title">
+    <h1>{{ page.title }} </h1>
+  </section>
+  {% endif %}
+  <section class="post">
+  {{ content }}
+  </section>
+</body>
