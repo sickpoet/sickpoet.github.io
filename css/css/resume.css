@@ -2,12 +2,15 @@ h1,h2,h3,h4,h5,h6,p,blockquote {  margin: 0;padding: 0;}
 body {
     font-family: "微软雅黑", Helvetica, "微软雅黑", Arial, sans-serif;
     font-size: 13px;
-    line-height: 18px;
+
     color: #737373;
     margin: 10px 13px 10px 13px;
+    letter-spacing: 0.1em;
+    line-height: 1.8em;
+
 }
 
-p {  margin-bottom: 9px;}
+ p{word-break;:break-all;} 
 
 h1,h2,h3,h4,h5,h6 {  color: #404040;  line-height: 36px;}
 
@@ -46,6 +49,7 @@ blockquote p {
     margin-bottom: 10px;
     font-size: bold;
 }
+
 blockquote a{text-decoration: none;color: #737373}
 blockquote a:hover{color: #fff;background: #737373;line-height: inherit;}
 @media screen and (min-width: 768px) {
@@ -57,6 +61,7 @@ blockquote a:hover{color: #fff;background: #737373;line-height: inherit;}
 ul,ol {
     margin-top: 4px;
 }
+li{line-height: 18px;}
 
 h3 span,h4 span{
     padding-left: 6px;
