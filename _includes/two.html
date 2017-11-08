@@ -2,16 +2,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.siteurl | prepend: site.url }}">
 
-    <link rel="stylesheet" href="{{ "/area.css" | prepend: site.siteurl }}">
+    <!-- <link rel="stylesheet" href="{{ "/area.css" | prepend: site.siteurl }}"> -->
+    <link rel="stylesheet" href="{{ "/css/area.css" | prepend: site.siteurl }}">
+
 
     <link rel="stylesheet" href="{{ "/css/css/font-awesome.min.css" | prepend: site.siteurl }}">
 
     <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link rel="prefetch" href="{{site.siteurl}}/article/index.html" />
+
 
 
     <!--[if lt IE 9]>
@@ -23,12 +24,49 @@
 <body id="" data-spy="scroll" data-target=".navbar-fixed-top">
 
 <div class="home">
+  <div class="homepic" id="homepic">
+    <div class="pl">
 
+        <img src="../../img/pd2.png" alt="">
+        <div class="btn1">
+            <div class="content">
+
+              <i class="fa fa-backward"></i>
+
+
+            </div>
+            <div class="btn1_social">
+                <ul>
+
+                  <li><a href="http://localhost:4000/person/" data-lightbox="example-set"><p>主页</p></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+  </div>
 </div>
 
-
 <div class="blog">
+      <div class="blogpic" id="blogpic">
+          <div class="pl">
 
+              <img src="../img/pd1.png" alt="">
+              <div class="btn2">
+                  <div class="content">
+                    <i class="fa fa-forward"></i>
+
+
+                  </div>
+                  <div class="btn2_social">
+                      <ul>
+
+                        <li><a href="http://localhost:4000/article/index.html" data-lightbox="example-set"><p>博客</p></a></li>
+                      </ul>
+                  </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 

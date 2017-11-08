@@ -1,0 +1,74 @@
+.home, .blog{float: left;width: 50%;height:40em;}
+/*.homepic{
+  background: url("../../img/p7.jpg")  no-repeat center center scroll;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}*/
+/*.blogpic{
+  background: url("../../img/p6.jpg")  no-repeat center center scroll;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+}*/
+.home img, .blog img{display: block;position: relative;width:100%;height: 40em;}
+/*.home .pl{width: 100%;height: 100%;background: black;z-index: 20;opacity: 0.5;}
+.blog .pl{width: 100%;height: 100%;}*/
+.btn1, .btn2{height: 40em;width: 49.38%;top:.5em;background:black;display: block;position: absolute;opacity: 0.3;}
+.btn1 .content, .btn2 .content{width:100%;height:60px;position: absolute;display: block;top: 45%;}
+
+.btn1 i{z-index: 80;font-size: 50px;position: absolute;color: white;left: 0;}
+.btn2 i{z-index: 80;font-size: 50px;position: absolute;color: white;right: 0;}
+
+
+.btn1_social, .btn2_social{
+  transition: all 1s ease;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: block;
+    width: 100%;
+    height: 40em;
+
+
+  }
+  .btn1_social ul, .btn2_social ul{padding: 0!important;margin: 0!important;height: inherit;}
+  .btn1_social ul li, .btn2_social ul li{height: inherit;}
+
+.btn1_social a, .btn2_social a{
+  position: absolute;
+  top: 45%;
+  display: block;
+  width: 70%;
+  left: 15%;
+  right:15%;
+  height: 80px;
+  color: #FF9E22;
+  background: #fff;
+  transition-duration: 0.3s;
+  /*border-radius: 50%;*/
+  text-shadow: none;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+
+.btn1_social a p, .btn2_social a p{color: black;font-size: 55px;margin: 0 auto; text-align:center; }
+
+.home .pl:hover .btn1 content{opacity: 1;background: none;transition: all 1s ease;}
+.blog .pl:hover  .btn2 content{opacity: 1;background: none;transition: all 1s ease;}
+.home .pl:hover  .btn1_social{opacity: 1;height: auto;transition: all 1s ease;}
+.blog .pl:hover   .btn2_social{opacity: 1;height: auto;transition: all 1s ease;}
+.home .pl:hover  .home img{-webkit-transform:scale(1.1);}
+.blog .pl:hover  .blog img {-webkit-transform:scale(1.1);}
+.home .pl:hover   .btn1_social a{background-color: ;transition: all 1s ease;}
+.blog .pl:hover  .btn2_social a {background-color:;transition: all 1s ease; }
+.home .pl:hover   .btn1 i{display: none;}
+.blog .pl:hover  .btn2 i{display: none;}
