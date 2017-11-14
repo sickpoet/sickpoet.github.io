@@ -54,7 +54,6 @@ layout: resume
 
  - - -
 
-
 ### <i class="fa fa-bookmark " aria-hidden="true"></i> 工作经历
 >
 #### <i class="fa fa-users" ></i> Realsys软件公司自贡分公司(2017.8-2017.11)
@@ -90,6 +89,3 @@ layout: resume
 >
 <i class="fa fa-keyboard-o" aria-hidden="true"></i>&nbsp;**运用技术**:运用HTML+CSS搭建个人主页，运用markdown生成博客，运用了bootstrap框架，本地的静态编译运用了jekyll，最终在github上托管，运用了比较流行font-awesome字体图标库，运用JS实现了一些导航功能和地图API控制。
 
-
-
- - - -
