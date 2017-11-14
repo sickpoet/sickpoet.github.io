@@ -33,7 +33,7 @@ layout: resume
 
 
 >
-<i class="fa fa-star" aria-hidden="true"></i> 个人有一年Web开发经验，了解Web前后端相关,能独立开发前后端完成一个Web Application。能独立学习并使用一个框架，并且热衷于开源项目,有一年左右的github和svn使用经验,能够独立搭建项目所需环境.
+<i class="fa fa-star" aria-hidden="true"></i> 个人有半年Web独立开发经验，了解Web前后端相关,能独立开发前后端完成一个Web Application。能独立学习并使用一个框架，并且热衷于开源项目,有半年左右的github和svn使用经验,能够独立搭建项目所需环境.
 >
 <i class="fa fa-star" aria-hidden="true"></i> 有较强的适应环境能力以及学习能力和团队合作能力,善于并乐于与人交流经验,学习他人,能够在团队中分担好自己的任务,有较强的集体荣誉感.
 
