@@ -57,7 +57,7 @@ layout: resume
 
 ### <i class="fa fa-bookmark " aria-hidden="true"></i> 工作经历
 >
-#### <i class="fa fa-users" ></i> Realsys软件公司自贡分公司
+#### <i class="fa fa-users" ></i> Realsys软件公司自贡分公司(2017.8-2017.11)
 >>
 **助理程序员**
 >>>
@@ -65,7 +65,7 @@ layout: resume
 >>>
 <i class="fa fa-book" aria-hidden="true"></i>&nbsp;**项目简介**: 制作租房公司的后台管理系统
 >>>
-<i class="fa fa-keyboard-o" aria-hidden="true"></i>&nbsp;**职责以及收获**:  我主要负责的是对租房信息的条目增加和修改,运用cakephp框架的验证,实现对数据库的增删查改,以及利用模版文件和css加上js动态生成一个html页面,掌握了配置路由以及form表单在php中的运用,后台学会了用PHP遍历取到数据并与前台交互,同时实现了表单的多图片验证功能,同时前端方面学习到Label标签实现隐藏input/button标签实现修改样式,js实现模态框.
+<i class="fa fa-keyboard-o" aria-hidden="true"></i>&nbsp;**职责以及收获**:  我主要负责的是对租房信息的条目增加和修改,运用cakephp框架的验证,实现对数据库的增删查改,以及利用模版文件和css加上js动态生成一个html页面,掌握了配置路由以及form表单在php中的运用,后台学会了用PHP遍历取到数据并与前台交互,同时实现了表单的多图片验证功能,同时前端方面学习到Label标签实现隐藏input/button标签实现修改样式,js实现模态框.  
 >>>
 <i class="fa fa-product-hunt" aria-hidden="true" ></i>&nbsp;**项目名称**:   [monologue(HTML+CSS)](https://www.monologue.watch/glasses_pc.html "官网")
 >>>
