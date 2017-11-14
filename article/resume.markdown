@@ -5,8 +5,6 @@ layout: resume
 
 
 ### <i class="fa fa-bookmark " aria-hidden="true"></i> 个人信息
-
-
 >  
 <i class="fa fa-user fa-md" aria-hidden="true"></i>&nbsp; **姓名**： 赵学志
 >
@@ -30,8 +28,6 @@ layout: resume
 
  - - -
 ### <i class="fa fa-bookmark" aria-hidden="true"></i> 自我简介
-
-
 >
 <i class="fa fa-star" aria-hidden="true"></i> 个人有半年Web独立开发经验，了解Web前后端相关,能独立开发前后端完成一个Web Application。能独立学习并使用一个框架，并且热衷于开源项目,有半年左右的github和svn使用经验,能够独立搭建项目所需环境.
 >
@@ -40,7 +36,6 @@ layout: resume
  - - -
 
 ### <i class="fa fa-bookmark" aria-hidden="true"></i> 技术能力
-
 >
 <i class="fa fa-star" aria-hidden="true"></i>&nbsp;在PHP和前端方面经验较多,也有一些关于JAVA框架spingmvc的经验
 >
@@ -77,10 +72,10 @@ layout: resume
 <i class="fa fa-book" aria-hidden="true"></i>&nbsp;**项目简介**: 制作邮件定时发送系统     
 >>>
 <i class="fa fa-keyboard-o" aria-hidden="true"></i>&nbsp;**职责以及收获**: 我主要邮件发送完毕后的送信状态检查的页面，页面需要对实体表中的数据项进行查询并筛选最终装入json字符串，传到前台接受再遍历并用js生成表格。这个项目运用了很多知识，主要对mvc框架有了比较深刻的认识，对entity的理解更加抽象，对类的继承也更加熟悉。
+
  - - -
 
 ### <i class="fa fa-bookmark" aria-hidden="true"></i>个人作品
-
 >
 <i class="fa fa-product-hunt" aria-hidden="true"></i>&nbsp;**项目名称**:Github个人主页以及博客
 >
