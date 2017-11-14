@@ -1,5 +1,5 @@
 ---
-title: 赵学志  <span style="font-size:18px;">&nbsp;/&nbsp;Sick Poet</span>
+title: 
 layout: resume
 ---
 
@@ -66,14 +66,12 @@ layout: resume
 <i class="fa fa-book" aria-hidden="true"></i>&nbsp;**项目简介**: 制作租房公司的后台管理系统
 >>>
 <i class="fa fa-keyboard-o" aria-hidden="true"></i>&nbsp;**职责以及收获**:  我主要负责的是对租房信息的条目增加和修改,运用cakephp框架的验证,实现对数据库的增删查改,以及利用模版文件和css加上js动态生成一个html页面,掌握了配置路由以及form表单在php中的运用,后台学会了用PHP遍历取到数据并与前台交互,同时实现了表单的多图片验证功能,同时前端方面学习到Label标签实现隐藏input/button标签实现修改样式,js实现模态框.
- 
 >>>
 <i class="fa fa-product-hunt" aria-hidden="true" ></i>&nbsp;**项目名称**:   [monologue(HTML+CSS)](https://www.monologue.watch/glasses_pc.html "官网")
 >>>
 <i class="fa fa-book" aria-hidden="true"></i>&nbsp;**项目简介**: 制作电商公司的眼镜售卖网页
 >>>
 <i class="fa fa-keyboard-o" aria-hidden="true"></i>&nbsp;**职责以及收获**: 我主要负责网页的选项卡界面，选择不同的眼镜配件，并把数据通过JS装入Json字符串传递，数据库中有所有类型的眼镜种类，同时我也负责测试页面bug，过程中发现了一些css覆盖和，js遍历的问题，ajax的异步提交问题。项目中学会了对json的简单处理，了解了ajax的异步提交特性，这个项目后来修改多次，让我意识到面向用户开发的特点，更加重视需求的修改。
-
 >>>
 <i class="fa fa-product-hunt" aria-hidden="true" ></i>&nbsp;**项目名称**:   [Dohomail(jsp+java日系seasar)](https://www.monologue.watch/glasses_pc.html "官网")
 >>>
