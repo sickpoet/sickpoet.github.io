@@ -8,7 +8,7 @@ layout: resume
 >  
 <i class="fa fa-user fa-md" aria-hidden="true"></i>&nbsp; **姓名**： 赵学志
 >
-<i class="fa fa-mars fa-md" aria-hidden="true"></i>&nbsp; **性别**：  男   
+<i class="fa fa-mars fa-md" aria-hidden="true"></i>&nbsp; **性别**：  男       身高：178cm    体重：65kg
 >
 <i class="fa fa-birthday-cake fa-md" aria-hidden="true"></i> &nbsp;**出生年月**:  1996年7月10日  
 >
@@ -29,15 +29,15 @@ layout: resume
  - - -
 ### <i class="fa fa-bookmark" aria-hidden="true"></i> 自我简介
 >
-<i class="fa fa-star" aria-hidden="true"></i> 个人有半年Web独立开发经验，了解Web前后端相关,能独立开发前后端完成一个Web Application。能独立学习并使用一个框架，并且热衷于开源项目,有半年左右的github和svn使用经验,能够独立搭建项目所需环境.
+<i class="fa fa-star" aria-hidden="true"></i> 熟悉windows操作，熟练运用Word2003,Excel办公软件，计算机基础知识扎实，能够快速学习并使用各种工作中需要使用的软件并进行简单维护工作。
 >
-<i class="fa fa-star" aria-hidden="true"></i> 有较强的适应环境能力以及学习能力和团队合作能力,善于并乐于与人交流经验,学习他人,能够在团队中分担好自己的任务,有较强的集体荣誉感.
+<i class="fa fa-star" aria-hidden="true"></i> 有较强的适应环境能力以及学习能力和团队合作能力,善于并乐于与人交流经验,学习他人,能够在团队中分担好自己的任务,有较强的集体荣誉感和服务意识。
 
  - - -
 
 ### <i class="fa fa-bookmark" aria-hidden="true"></i> 技术能力
 >
-<i class="fa fa-star" aria-hidden="true"></i>&nbsp;在PHP和前端方面经验较多,也有一些关于JAVA框架spingmvc的经验
+<i class="fa fa-star" aria-hidden="true"></i>&nbsp;Web前端和PHP掌握较多。
 >
 <i class="fa fa-star" aria-hidden="true"></i>&nbsp;热爱Web开发:
 >
