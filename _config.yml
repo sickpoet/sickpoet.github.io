@@ -1,15 +1,15 @@
 # HomePages
-title: 病态诗人的个人主页
+title: 个人主页
 email: qinchun1024@163.com
 url: https://sickpoet.github.io
-description: "我是您最忠实的朋友Sick诗人!你知道吗，从你进来的那一刻起，你的银行账户就已经被我盗取,请联系我!"
+description: "欢迎来到我的个人主页,这里有一些关于我的故事和关于我的介绍."
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
   links: '#219ab3'
 
 # Footer settings
-footer: 最终解释权归诗人所有
+footer: 2018.6
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
