@@ -1,22 +1,25 @@
-.home, .blog{float: left;width: 50%;height:40em;}
-/*.homepic{
-  background: url("../../img/p7.jpg")  no-repeat center center scroll;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-}*/
-/*.blogpic{
-  background: url("../../img/p6.jpg")  no-repeat center center scroll;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+body{
+    margin: 0;
+}
+.home, .blog{float: left;width: 50%;height:100%;left: 0;}
+                    /*.homepic{
+                      background: url("../../img/p7.jpg")  no-repeat center center scroll;
+                      background-size: cover;
+                      width: 100%;
+                      height: 100%;
+                      z-index: 10;
+                    }*/
+                    /*.blogpic{
+                      background: url("../../img/p6.jpg")  no-repeat center center scroll;
+                      background-size: cover;
+                      width: 100%;
+                      height: 100%;
 
-}*/
-.home img, .blog img{display: block;position: relative;width:100%;height: 40em;}
-/*.home .pl{width: 100%;height: 100%;background: black;z-index: 20;opacity: 0.5;}
-.blog .pl{width: 100%;height: 100%;}*/
-.btn1, .btn2{height: 40em;width: 49.38%;top:.5em;background:black;display: block;position: absolute;opacity: 0.3;}
+                    }*/
+.home img, .blog img{display: block;position: relative;width:100%;height:-webkit-fill-available;}
+                    /*.home .pl{width: 100%;height: 100%;background: black;z-index: 20;opacity: 0.5;}
+                    .blog .pl{width: 100%;height: 100%;}*/
+.btn1, .btn2{height: 100%;width: 50%;top:0;background:black;display: block;position: absolute;opacity: 0.3;}
 .btn1 .content, .btn2 .content{width:100%;height:60px;position: absolute;display: block;top: 45%;}
 
 .btn1 i{z-index: 80;font-size: 50px;position: absolute;color: white;left: 0;}
@@ -33,12 +36,12 @@
     letter-spacing: 2px;
     display: block;
     width: 100%;
-    height: 40em;
+    height: 100%;
 
 
   }
   .btn1_social ul, .btn2_social ul{padding: 0!important;margin: 0!important;height: inherit;}
-  .btn1_social ul li, .btn2_social ul li{height: inherit;}
+  .btn1_social ul li, .btn2_social ul li{height:100%;}
 
 .btn1_social a, .btn2_social a{
   position: absolute;
@@ -51,7 +54,7 @@
   color: #FF9E22;
   background: #fff;
   transition-duration: 0.3s;
-  /*border-radius: 50%;*/
+        /*border-radius: 50%;*/
   text-shadow: none;
   transition: all .2s ease-in-out;
   text-decoration: none;
