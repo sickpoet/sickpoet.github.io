@@ -1,18 +1,17 @@
 $('').ready(function(){
-          var $p = $("#f-menu ul li a");
+          window.onhashchange = loadHash;
+          loadHash();
+});
+    function actTive(){
+          var $a = $("#f-menu ul li a");
           var id = window.location.hash;
-          var url = window.location.href;
-          loadHash(id);
+          //  var url = window.location.href;
           var rid = id.split('#')[1];
-        //  console.log("rid是"+rid+"");
           var lis = new Array();
-          for(var i = 0; i < $p.size()  ; i++){
-              lis.push($p.eq(i).attr('href'));
+          for(var i = 0; i < $a.size()  ; i++){
+              lis.push($a.eq(i).attr('href'));
           }
           var tid =$.trim(id)
-        //  console.log("tid是"+tid+"");
-        //  console.log("lis[0]是"+lis[0]);
-        //  console.log(lis);
           for (var i = 0;i<lis.length;i++){
               if( $.trim(lis[i]) == tid ){
                 $(".a-"+rid+"").not("active").addClass('active');
@@ -20,53 +19,52 @@ $('').ready(function(){
                 //$(".a-"+tid+"")..removeClass('active');
               }
           }
-           if (id) {
-        //    var t = $(id).offset().top;
-        //    $(window).scrollTop(t);
-          }
+        /*   if (id) {
+       //    var t = $(id).offset().top;
+       //    $(window).scrollTop(t);
+         } */
+    }
+    function loadHash(hash){
+      var hash = window.location.hash;
 
-          function loadHash(hash){
-            switch(hash){
-              case '#intro':
-                $('.page-wrapper').load('intro.html #intro',);
-                //$(".a1").load("userInfo.html .b");
-                console.log('intro');
-                 break;
-              case '#about':
-                $('.page-wrapper').load('about.html #about');
-                console.log('about');
-                 break;
-               case '#download':
-               $('.page-wrapper').load('download.html #download');
+      $rc =$('.a-hre').removeClass('active');
+      $ar = $(".a-"+hash.toString().substr(1)).not("class","active").addClass("active");
+    //  console.log('ar是'+".a-"+hash.toString().substr(1));
+      switch(hash){
+        case '#intro':
+          $('.page-wrapper').load('intro.html #intro');
+          //$(".a1").load("userInfo.html .b");
+          $rc ;
+          $ar ;
+          console.log('intro');
+           break;
+        case '#about':
+          $('.page-wrapper').load('about.html #about');
+          $rc ;
+          $ar ;
+          console.log('about');
+           break;
+         case '#download':
+         $('.page-wrapper').load('download.html #download');
+         $rc ;
+         $ar ;
+          console.log('download');
+            break;
+        case '#contact':
+         $('.page-wrapper').load('contact.html #contact');
+         $rc ;
+         $ar ;
+           console.log('contact');
+           break;
+         case '#footer':
+          $('.page-wrapper').load('footer.html #footer');
+          $rc ;
+          $ar ;
+          console.log('footer');
+           break;
+      }
+    }
 
-                console.log('download');
-                  break;
-              case '#contact':
-               $('.page-wrapper').load('contact.html #contact');
-                 console.log('contact');
-                 break;
-               case '#footer':
-                $('.page-wrapper').load('footer.html #footer');
-                console.log('footer');
-                 break;
-            }
-          }
-          $p.click(function(){
-            window.location.reload()
-          });
-          $('btn-down').click(function(){
-
-          })
-
-});
-$.ajax({
-  type: “POST”, //提交的类型
-  url: url,//提交地址
-  data: “”,//参数
-  success: function(msg){ //回调方法
-    alert( “Data Saved: ” + msg );//这里是方法内容，和上面的get方法一样
-  }
-});
 
 /* var arr = new Array();
 var url = window.location.toString();
