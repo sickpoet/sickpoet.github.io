@@ -1,0 +1,139 @@
+/*主页css*/
+{
+  margin: 0 0;
+  padding: 0 0;
+}
+div{  box-sizing:border-box;  -moz-box-sizing:border-box; /* Firefox */-webkit-box-sizing:border-box; /* Safari */}
+body::-webkit-scrollbar{display: none;}
+body::-moz-scrollbar{display: none;}
+html {
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    line-height:22px;
+    margin:0 0;
+
+}
+.home-warpper{
+  height: 100%;
+  position: relative;
+  touch-action: none;
+  transform: translate3d(0px, 0px, 0px);
+  transition: all 700ms ease 0s;
+}
+.mainPanel{
+  margin: 0 0 ;
+  position: relative;
+  background: url(../img/allback.jpg) no-repeat bottom center scroll;
+  width: 100%;
+  height: 888px;
+  padding: 100px 0;
+  text-align: center;
+   color: #fff;
+  background-color: {{ site.color.primary-dark }};
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.contentArea{
+  width:50%;
+  height:30%;
+  position: absolute;
+  top:33%;
+  left: 25%;
+}
+.pl{
+    position: absolute;
+    height: 100%;
+    text-align: center;
+     color: #fff;
+    background-color: {{ site.color.primary-dark }};
+
+}
+.mianPic{width:100%;height:100%;opacity: 0.9;z-index: 0.5;}
+
+.home {float: left;width:49%;height:100%;}
+
+.blog {float: left;width:49%;height:100%;}
+
+.pl{position: relative;}
+
+
+.btn1, .btn2{top:0;width:100%;height:100%;background:black;opacity: 0.7;position: absolute;border-radius: 50%;z-index: 0.6;}
+
+.btn1 .content, .btn2 .content{width:100%;height:25%;top: 45%;}
+
+.btn1 i{z-index: 80;font-size: 50px;position: absolute;color: white;left: 0;}
+
+.btn2 i{z-index: 80;font-size: 50px;position: absolute;color: white;right: 0;}
+
+
+.btn1_social, .btn2_social{
+  transition: all 1s ease;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn1 ul,.btn2 ul{
+    position: absolute;
+    height:100%;
+    width:100%;
+    padding: 0 0;
+    margin: 0  0;
+    vertical-align: middle;
+  }
+  .btn1 ul li, .btn2 ul li{
+    list-style: none;
+    height:50%;
+    width:100%;
+    margin-top: 25%;
+    position:absolute;
+  }
+
+.btn1 ul li a, .btn2 ul li a{
+  position:relative;
+  height: 70%;
+  width: 50%;
+  color: #FF9E22;
+  background: #fff;
+  transition-duration: 0.3s;
+        /*border-radius: 50%;*/
+  text-shadow: none;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+@media (max-width: 992px){
+  .pl{
+    height: 70%;
+  }
+  .btn1 a , .btn2l a {vertical-align: middle;}
+}
+@media (min-width: 1200px){
+
+}
+.btn1 a p, .btn2 a p{color: white;text-align:center;vertical-align:baseline;font-size: 35px;}
+
+.home .pl:hover .btn1 content{opacity: 1;background: none;transition: all 1s ease;}
+.blog .pl:hover  .btn2 content{opacity: 1;background: none;transition: all 1s ease;}
+.home .pl:hover  .btn1{opacity: 1;height: auto;transition: all 1s ease;}
+.blog .pl:hover   .btn2{opacity: 1;height: auto;transition: all 1s ease;}
+
+.home .pl:hover   .btn1 a{background-color: ;transition: all 1s ease;}
+.blog .pl:hover  .btn2 a {background-color:;transition: all 1s ease; }
+.home .pl:hover   .btn1 i{display: none;}
+.blog .pl:hover  .btn2 i{display: none;}

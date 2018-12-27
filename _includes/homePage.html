@@ -5,7 +5,10 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
 
-    <link rel="stylesheet" href="{{ "/css/area.css" | prepend: site.siteurl }}">
+    <link rel="stylesheet" href="{{ "/css/homePage.css" | prepend: site.siteurl }}">
+    <link rel="stylesheet" href="../css/homePage.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+
 
     <link rel="stylesheet" href= "{{ /css/font-awesome.min.css | prepend: site.siteurl }}">
 
@@ -21,57 +24,49 @@
     </head>
 
 <body >
-  <div class="mainPanel">
+        <div class='home-warpper'>
+            <div class="mainPanel">
+                <div class="contentArea">
 
-      <img src="../img/allback.jpg" alt="" class="mianPic">
+                      <div class="home">
 
-      <div class="contentArea">
+                          <div class="pl">
 
-      <div class="home">
-         <div class="homepic" id="homepic">
-          <div class="pl">
-              <img src="../img/pd2.png" alt="">
-             <div class="btn1">
-                   <!-- <div class="content">
+                             <div class="btn1">
+                                       <ul>
 
-                    <i class="fa fa-backward"></i>
+                                        <li><a href="{{site.siteurl}}/person/index.html" data-lightbox="example-set"><p>主页</p></a></li>
 
-                    </div> -->
-                  <div class="btn1_social">
-                      <ul>
+                                      </ul>
 
-                        <li><a href="{{site.siteurl}}/person/index.html" data-lightbox="example-set"><p>主页</p></a></li>
+                              </div>
 
-                      </ul>
-                  </div>
-              </div>
+                          </div>
 
-          </div>
-        </div>
+                      </div>
+
+                      <div class="blog">
+
+                                <div class="pl">
+
+
+                                    <div class="btn2">
+                                        <!-- <div class="content">
+                                          <i class="fa fa-forward"></i
+
+                                        </div> -->
+
+                                            <ul>
+
+                                              <li><a href="{{site.siteurl}}/article/index.html" data-lightbox="example-set"><p>博客</p></a></li>
+                                            </ul>
+
+                                  </div>
+                              </div>
+
+                      </div>
+
+                </div>
+            </div>
       </div>
-
-      <div class="blog">
-             <div class="blogpic" id="blogpic">
-                <div class="pl">
-
-                    <img src="../img/pd1.png" alt="">
-                    <div class="btn2">
-                        <!-- <div class="content">
-                          <i class="fa fa-forward"></i
-
-                        </div> -->
-                        <div class="btn2_social">
-                            <ul>
-
-                              <li><a href="{{site.siteurl}}/article/index.html" data-lightbox="example-set"><p>博客</p></a></li>
-                            </ul>
-                        </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-
-      </div>
-</div>
-
 </body>
