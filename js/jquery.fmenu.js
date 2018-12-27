@@ -1,9 +1,7 @@
 $('').ready(function(){
           var $p = $("#f-menu ul li a");
-          $p.click(function(){
-            window.location.reload()
-          });
           var id = window.location.hash;
+          var url = window.location.href;
           loadHash(id);
           var rid = id.split('#')[1];
         //  console.log("rid是"+rid+"");
@@ -53,6 +51,21 @@ $('').ready(function(){
                  break;
             }
           }
+          $p.click(function(){
+            window.location.reload()
+          });
+          $('btn-down').click(function(){
+
+          })
+
+});
+$.ajax({
+  type: “POST”, //提交的类型
+  url: url,//提交地址
+  data: “”,//参数
+  success: function(msg){ //回调方法
+    alert( “Data Saved: ” + msg );//这里是方法内容，和上面的get方法一样
+  }
 });
 
 /* var arr = new Array();
