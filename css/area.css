@@ -1,28 +1,32 @@
-body{
-    margin: 0;
-}
-.home, .blog{float: left;width: 50%;height:100%;left: 0;}
-                    /*.homepic{
-                      background: url("../../img/p7.jpg")  no-repeat center center scroll;
-                      background-size: cover;
-                      width: 100%;
-                      height: 100%;
-                      z-index: 10;
-                    }*/
-                    /*.blogpic{
-                      background: url("../../img/p6.jpg")  no-repeat center center scroll;
-                      background-size: cover;
-                      width: 100%;
-                      height: 100%;
+/*主页css*/
+div{  box-sizing:border-box;  -moz-box-sizing:border-box; /* Firefox */-webkit-box-sizing:border-box; /* Safari */}
 
-                    }*/
-.home img, .blog img{display: block;position: relative;width:100%;height:-webkit-fill-available;}
-                    /*.home .pl{width: 100%;height: 100%;background: black;z-index: 20;opacity: 0.5;}
-                    .blog .pl{width: 100%;height: 100%;}*/
-.btn1, .btn2{height: 100%;width: 50%;top:0;background:black;display: block;position: absolute;opacity: 0.3;}
-.btn1 .content, .btn2 .content{width:100%;height:60px;position: absolute;display: block;top: 45%;}
+.mainPanel{position: relative;}
+
+.contentArea{
+  width:50%;
+  height:30%;
+  position: absolute;
+  top:33%;
+  left: 25%;
+}
+
+.mianPic{width:100%;height:100%;opacity: 0.9;z-index: 0.5;}
+
+.home {float: left;width:49%;height:100%;}
+
+.blog {float: left;width:49%;height:100%;}
+
+.pl{position: relative;}
+
+.home img, .blog img{width:100%;height:100%;border-radius: 50%;}
+
+.btn1, .btn2{top:0;width:100%;height:100%;background:black;opacity: 0.7;position: absolute;border-radius: 50%;z-index: 0.6;}
+
+.btn1 .content, .btn2 .content{width:100%;height:25%;top: 45%;}
 
 .btn1 i{z-index: 80;font-size: 50px;position: absolute;color: white;left: 0;}
+
 .btn2 i{z-index: 80;font-size: 50px;position: absolute;color: white;right: 0;}
 
 
@@ -37,20 +41,18 @@ body{
     display: block;
     width: 100%;
     height: 100%;
-
-
   }
   .btn1_social ul, .btn2_social ul{padding: 0!important;margin: 0!important;height: inherit;}
   .btn1_social ul li, .btn2_social ul li{height:100%;}
 
 .btn1_social a, .btn2_social a{
   position: absolute;
-  top: 45%;
+  top: 33%;
   display: block;
   width: 70%;
   left: 15%;
   right:15%;
-  height: 80px;
+  height: 40%;
   color: #FF9E22;
   background: #fff;
   transition-duration: 0.3s;

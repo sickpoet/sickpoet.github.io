@@ -1,0 +1,148 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+
+    <link rel="stylesheet" href="../css/grayscale.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+
+
+    <!-- jQuery Version 1.11.0 -->
+       <script src="../js/jquery.js"></script>
+       <script src="../js/jquery-1.10.2.min.js"></script>
+       <script src="../js/jquery.fmenu.js"></script>
+
+       <!-- Bootstrap Core JavaScript -->
+       <script src="../js/bootstrap.min.js" ></script>
+
+       <!-- Plugin JavaScript -->
+       <script src="../js/jquery.easing.min.js" ></script>
+       <!-- jQuery FullPage  JavaScript -->
+
+      <!-- <script src="../js/jquery.fullPage.js" ></script> -->
+       <!-- jQuery FullPage  JavaScript -->
+
+       <!-- <script src="../js/jquery.mouseWheel.js" ></script> -->
+
+       <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+
+
+       <!-- Custom Theme JavaScript -->
+
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body onhashchange="getHash()">
+  <!-- navbar -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  We <span class="light">Don't</span> Have
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                      <a href="{{site.siteurl}}">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">First 颜值</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Then 才华</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Last 善良</a>
+                    </li>
+                    <li>
+                      <a href="{{site.siteurl}}/article/"  title="这里可以去看我最新的动态">我的博客</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!--f-menu  -->
+    <div id="f-menu" class="f-menu">
+      <ul>
+        <li>
+          <a href="#intro" class="a-intro">
+            <span></span>
+          </a>
+        </li>
+        <li>
+          <a href="#about" class="a-about ">
+            <span></span>
+          </a>
+        </li>
+        <li>
+          <a href="#download" class="a-download">
+            <span></span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact" class="a-contact">
+            <span></span>
+          </a>
+        </li>
+        <li>
+          <a href="#footer" class="a-footer">
+            <span></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+<div class="page-wrapper " >
+  <!-- Intro Header -->
+  <header id="intro" class="intro  content-section text-center">
+      <div class="intro-body">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                      <h1 class="brand-heading">{{ site.title }}</h1>
+                      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=509354650&auto=1&height=66"></iframe>
+                      <p class="intro-text">{{ site.description }}<br>
+                      <a href="#about" class="btn btn-circle page-scroll">
+                          <i class="fa fa-angle-double-down animated"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </header>
+
+
+</div>
+
+
+</body>
+ <!-- Navigation -->
+
+</html>

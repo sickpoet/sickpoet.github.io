@@ -1,11 +1,12 @@
-<head>
+<html>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-     <!--<link rel="stylesheet" href="/css/area.css" >       <!--jekyll-->
+     <link rel="stylesheet" href="/css/area.css" >
 
-    <link rel="stylesheet" href="{{ "/css/area.css" | prepend: site.siteurl }}">   <!--github-->
+    <link rel="stylesheet" href="{{ "/css/area.css" | prepend: site.siteurl }}">
 
 
     <link rel="stylesheet" href= "{{ /css/font-awesome.min.css | prepend: site.siteurl }}">
@@ -16,66 +17,68 @@
     <link rel="prefetch" href="{{site.siteurl}}/article/index.html" />
     <link rel="prefetch" href="{{site.siteurl}}/person/index.html" />
 
+      <link rel="stylesheet" href="../css/area.css">
 
 
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
 
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-<html>
-</head>
 <body >
+  <div class="mainPanel">
 
+      <img src="../img/allback.jpg" alt="" class="mianPic">
 
+      <div class="contentArea">
 
+      <div class="home">
+         <div class="homepic" id="homepic">
+          <div class="pl">
+              <img src="../img/pd2.png" alt="">
+             <div class="btn1">
+                   <!-- <div class="content">
 
-    <div class="home">
-      <div class="homepic" id="homepic">
-        <div class="pl">
+                    <i class="fa fa-backward"></i>
 
-            <img src="../../img/pd2.png" alt="">
-            <div class="btn1">
-                <div class="content">
+                    </div> -->
+                  <div class="btn1_social">
+                      <ul>
 
-                  <i class="fa fa-backward"></i>
+                        <li><a href="{{site.siteurl}}/person/index.html" data-lightbox="example-set"><p>主页</p></a></li>
 
+                      </ul>
+                  </div>
+              </div>
 
-                </div>
-                <div class="btn1_social">
-                    <ul>
-
-                      <li><a href="{{site.siteurl}}/person/index.html" data-lightbox="example-set"><p>主页</p></a></li>
-
-                    </ul>
-                </div>
-            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="blog">
-          <div class="blogpic" id="blogpic">
-              <div class="pl">
+      <div class="blog">
+             <div class="blogpic" id="blogpic">
+                <div class="pl">
 
-                  <img src="../img/pd1.png" alt="">
-                  <div class="btn2">
-                      <div class="content">
-                        <i class="fa fa-forward"></i>
+                    <img src="../img/pd1.png" alt="">
+                    <div class="btn2">
+                        <!-- <div class="content">
+                          <i class="fa fa-forward"></i
 
+                        </div> -->
+                        <div class="btn2_social">
+                            <ul>
 
-                      </div>
-                      <div class="btn2_social">
-                          <ul>
+                              <li><a href="{{site.siteurl}}/article/index.html" data-lightbox="example-set"><p>博客</p></a></li>
+                            </ul>
+                        </div>
+                  </div>
+              </div>
+          </div>
+      </div>
 
-                            <li><a href="{{site.siteurl}}/article/index.html" data-lightbox="example-set"><p>博客</p></a></li>
-                          </ul>
-                      </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+      </div>
+</div>
 
 </body>
 </html>
