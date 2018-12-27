@@ -62,6 +62,13 @@ $('').ready(function(){
           $ar ;
           console.log('footer');
            break;
+        default:
+            $('.page-wrapper').load('intro.html #intro');
+            //$(".a1").load("userInfo.html .b");
+            $rc ;
+            $('.a-intro').not("class","active").addClass("active");
+            console.log('default');
+             break;
       }
     }
 
