@@ -4,6 +4,7 @@ $('').ready(function(){
             window.location.reload()
           });
           var id = window.location.hash;
+          loadHash(id);
           var rid = id.split('#')[1];
         //  console.log("rid是"+rid+"");
           var lis = new Array();
@@ -26,29 +27,31 @@ $('').ready(function(){
         //    $(window).scrollTop(t);
           }
 
-          switch(id){
-            case '#intro':
-              $('.page-wrapper').load('intro.html',);
-              //$(".a1").load("userInfo.html .b");
-              console.log('intro');
-               break;
-            case '#about':
-              $('.page-wrapper').load('about.html #about');
-              console.log('about');
-               break;
-             case '#download':
-             $('.page-wrapper').load('download.html #download');
+          function loadHash(hash){
+            switch(hash){
+              case '#intro':
+                $('.page-wrapper').load('intro.html #intro',);
+                //$(".a1").load("userInfo.html .b");
+                console.log('intro');
+                 break;
+              case '#about':
+                $('.page-wrapper').load('about.html #about');
+                console.log('about');
+                 break;
+               case '#download':
+               $('.page-wrapper').load('download.html #download');
 
-              console.log('download');
-                break;
-            case '#contact':
-             $('.page-wrapper').load('contact.html #contact');
-               console.log('contact');
-               break;
-             case '#footer':
-              $('.page-wrapper').load('footer.html #footer');
-              console.log('footer');
-               break;
+                console.log('download');
+                  break;
+              case '#contact':
+               $('.page-wrapper').load('contact.html #contact');
+                 console.log('contact');
+                 break;
+               case '#footer':
+                $('.page-wrapper').load('footer.html #footer');
+                console.log('footer');
+                 break;
+            }
           }
 });
 
