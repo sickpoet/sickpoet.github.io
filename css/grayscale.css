@@ -363,7 +363,7 @@ footer p {
 }
 @media(min-width:767px) {
     .content-section {
-
+          height: 100%;
     }
     #map {
         height: 400px;
