@@ -106,7 +106,7 @@ img::-moz-selection {
     margin: -5px 0px 0px -5px;
 }
 /*pagewrapper*/
-.pagewrapper{
+.page-wrapper{
   height: 100%;
   position: relative;
   touch-action: none;
