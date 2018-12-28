@@ -32,38 +32,38 @@ $('').ready(function(){
     //  console.log('ar是'+".a-"+hash.toString().substr(1));
       switch(hash){
         case '#intro':
-          $('.page-wrapper').load('../intro.html #intro');
+          $('.page-wrapper').load('../_includes/intro.html #intro');
           //$(".a1").load("userInfo.html .b");
           $rc ;
           $ar ;
           console.log('intro');
            break;
         case '#about':
-          $('.page-wrapper').load('../about.html #about');
+          $('.page-wrapper').load('../_includes/about.html #about');
           $rc ;
           $ar ;
           console.log('about');
            break;
          case '#download':
-         $('.page-wrapper').load('../download.html #download');
+         $('.page-wrapper').load('../_includes/download.html #download');
          $rc ;
          $ar ;
           console.log('download');
             break;
         case '#contact':
-         $('.page-wrapper').load('../contact.html #contact');
+         $('.page-wrapper').load('../_includes/contact.html #contact');
          $rc ;
          $ar ;
            console.log('contact');
            break;
          case '#footer':
-          $('.page-wrapper').load('../footer.html #footer');
+          $('.page-wrapper').load('../_includes/footer.html #footer');
           $rc ;
           $ar ;
           console.log('footer');
            break;
         default:
-            $('.page-wrapper').load('../intro.html #intro');
+            $('.page-wrapper').load('../_includes/intro.html #intro');
             //$(".a1").load("userInfo.html .b");
             $rc ;
             $('.a-intro').not("class","active").addClass("active");
