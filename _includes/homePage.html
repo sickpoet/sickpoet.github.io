@@ -2,18 +2,18 @@
   <head>
     <meta charset="utf-8">
     <meta htt-equiv="X-UA-Comatible" content="IE=edge">
-    <title>{% if age.title %}{{ age.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
 
-    <link rel="stylesheet" href="{{ "/css/homePage.css" | reend: site.siteurl }}">
+    <link rel="stylesheet" href="{{ "/css/homePage.css" | preend: site.siteurl }}">
     <link rel="stylesheet" href="../css/homePage.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
 
 
-    <link rel="stylesheet" href= "{{ /css/font-awesome.min.css | reend: site.siteurl }}">
+    <link rel="stylesheet" href= "{{ /css/font-awesome.min.css | preend: site.siteurl }}">
 
-    <link rel="refetch" href="{{site.siteurl}}/article/index.html" />
-    <link rel="refetch" href="{{site.siteurl}}/erson/index.html" />
+    <link rel="prefetch" href="{{site.siteurl}}/article/index.html" />
+    <link rel="prefetch" href="{{site.siteurl}}/person/index.html" />
 
 
 
